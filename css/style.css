@@ -1,0 +1,32 @@
+/* css file for practice portfolio website*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+}
+
+:root{
+
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Sans Pro', monospace;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #303030;
+
+    --clr:accent: #16e0bd;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25 rem;
+    --fs-h3: 1.25 rem;
+    -fs-body: 1 rem;
+
+}
+
+@media (min-width)
+
+
