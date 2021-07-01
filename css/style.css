@@ -193,11 +193,30 @@ nav {
 
         content: '';
         display: block;
-        width: 25%;
+        width: 2em;
         height: 1px;
         margin: 0.5em auto 1 em;
         background: currentColor;
         
+
+    }
+
+
+    @media(min-width: 800px){
+
+        .services {
+
+            display: flex;
+            max-width: 1250px;
+            margin: 50px;
+
+
+        }
+        .service + .service {
+            margin-left: 2em;
+
+        }
+
 
     }
 
