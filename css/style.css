@@ -21,6 +21,9 @@
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
+
+
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,0.25), 0.125em 0.125em 0.25em rgba(0,0,0,.15) ;
 }
 
 
@@ -49,14 +52,7 @@ body {
 section {
     padding: 5em 2em;
 
-
-
 }
-
-
-
-
-
 
 
 img {
@@ -107,6 +103,7 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle--intro,
 .section__subtitle--about {
     background: var(--clr-accent);
+    padding: 0.25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 
@@ -127,10 +124,23 @@ nav {
 
 }
 
+.intro__img {
 
-@media(min-width: 600 px){
+    box-shadow: var(--bs);
+}
+
+.section__subtitle--intro {
+
+    display: inline-block;
+}
+
+
+@media(min-width: 600px){
     .intro {
         display: grid;
+        grid-column-gap: 1em;
+        width: min-content;
+        margin: 0 auto;
         grid-template-areas:
             "img title"
             "img subtitle";
@@ -138,7 +148,32 @@ nav {
     }
 
     .intro__img {
+        grid-area: img;
+        min-width: 250px;
+        position: relative;
+        z-index: 2;
 
+    }
+
+    .section__subtitle--intro{
+        align-self: start;
+        grid-column: -1 / 1;
+        grid-row: 2;
+        text-align: right;
+        position: relative;
+        left: -1.5em;
+        width: calc(100% + 1.5em);
+
+
+    }
+
+
+    /* My Services section */
+
+    .my-services {
+
+        background-color: var(--clr-dark);
+        color: var(--clr-light);
         
 
 
@@ -146,9 +181,6 @@ nav {
 
 
     }
-
-
-
 
 
 
