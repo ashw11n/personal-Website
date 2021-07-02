@@ -190,11 +190,25 @@ h3 { font-size: var(--fs-h3) }
      right: 1em;
      top: 1em;
 
+}
+
+.nav-open {
+    background: red;
+    
+
+
+
 
 
 
 
 }
+
+
+
+
+
+
 
 
 
