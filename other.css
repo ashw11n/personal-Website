@@ -181,13 +181,60 @@ h3 { font-size: var(--fs-h3) }
     color: var(--clr-accent);
 }
 
+.nav-toggle {
+     padding: 0.5em;
+     background: var(--clr-light);
+     border: 0;
+     cursor: pointer;
+     position: absolute;
+     right: 1em;
+     top: 1em;
+
+
+
+
+
+}
+
+
+
+
+
+
 
 /* left off here last */
 .hamburger {
 
-    background: var(--clr-dark);
+
+    display: block;
+    position: relative;
+
 }
 
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+
+    background: var(--clr-accent);
+    width: 2em;
+    height: 3px;
+    border-radius: 1em;
+    transition: transform 250ms ease-in-out;
+}
+
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+
+.hamburger::before {top: 10px;}
+.hamburger::after {bottom: 10px;}
 
 
 
