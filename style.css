@@ -333,10 +333,40 @@ h3 { font-size: var(--fs-h3) }
         align-self: start;
         grid-column: -1 / 1;
         grid-row: 2;
-        text-align: right;
+        text-align: left;
         position: relative;
-        left: -1.5em;
-        width: calc(100% + 1.5em);
+        left: 17 em;
+        width: calc(100% + 3 em);
+        z-index: 5;
+    }
+        
+
+    .box {
+        position: relative;
+        display: inline-block;
+
+        }
+
+
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 9 auto;
+        left: 900;
+        right: 0;
+        top: 90%; /* Adjust this value to move the positioned div up and down */
+        text-align: relative;
+        width: 100 em; /* Set the width of the positioned div */
+        padding-left: 0 em;
+        padding-right: 0px;
+        display: grid;
+        grid-template-columns: 1fr 500px;
+        grid-template-areas: 
+            "title img"
+            "subtitle img"
+            "text img";
+        grid-column-gap: 2em;
+        
     }
 }
 
