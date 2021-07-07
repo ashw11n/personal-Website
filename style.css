@@ -354,7 +354,7 @@ h3 { font-size: var(--fs-h3) }
         margin: 9 auto;
         left: 900;
         right: 0;
-        top: 90%; /* Adjust this value to move the positioned div up and down */
+        top: 88%; /* Adjust this value to move the positioned div up and down */
         text-align: relative;
         width: 100 em; /* Set the width of the positioned div */
         padding-left: 0 em;
@@ -468,8 +468,8 @@ h3 { font-size: var(--fs-h3) }
 
 
 .my-work {
-    background: var(--clr-dark);
-    color: var(--clr-light);
+    background: var(--clr-superdark);
+    color: var(--clr-accent);
     text-align: center;
 
 
@@ -487,11 +487,12 @@ h3 { font-size: var(--fs-h3) }
 
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* changes the number of columns in the frame */
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-superdark);
     overflow: hidden;
 
 
