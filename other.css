@@ -457,6 +457,14 @@ h3 { font-size: var(--fs-h3) }
     grid-template-columns: repeat(3, 1fr);
 }
 
+
+
+.smallportfolio{
+    position: relative;
+    height: 200px;
+    width: 257px;
+}
+
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
