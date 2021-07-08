@@ -79,12 +79,11 @@ strong { font-weight: var(--fw-bold) }
 }
 
 /* Buttons */
-
 .btn {
     display: inline-block;
     padding: .5em 2.5em;
     background: var(--clr-accent);
-    color: var(--clr-dark);
+    color: var(--clr-superdark);
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
@@ -451,7 +450,7 @@ h3 { font-size: var(--fs-h3) }
         position: relative;
         left: -1em;
         width: calc(100% + 2em);
-        padding-left: 1em;
+        padding-left: 1 em;
         padding-right: calc(200px + 4em);
     }
     
