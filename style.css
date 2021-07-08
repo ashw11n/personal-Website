@@ -547,7 +547,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 
-/* relevant styles */
+/* my work image description section */
   
   .img__description1,
   .img__description2,
@@ -558,8 +558,8 @@ h3 { font-size: var(--fs-h3) }
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(29, 106, 154, 0.72);
-    color: #fff;
+    background: rgb(221, 105, 105);
+    color: white;
     visibility: hidden;
     opacity: 0;
   
