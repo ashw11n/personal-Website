@@ -102,10 +102,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--clr-superdark);
+    position: sticky;
+    top: 0;
   }
   
   li {
+    display: inline;
     float: left;
   }
   
@@ -125,30 +128,6 @@ ul {
   .active {
     background-color: var(--clr-superdark);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Typography */
 
