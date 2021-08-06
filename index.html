@@ -1,168 +1,154 @@
+
+<!-- home page in development -->
 <!DOCTYPE html>
+<html>
 <html lang="en">
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+
+</html>
+
+    <header>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ashwin hariharan Portfolio Website</title>
+        <title> Welcome to my Portfolio Website! </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         
         <!-- Update these with your own fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
         
-        <link rel="stylesheet" href="other.css">
+        <!-- <link rel="stylesheet" href="other.css"> -- add css stylesheet link right here -->
 
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="brunofacepic.PNG" alt="">
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
+        <link rel="stylesheet" href="style.css">
+
+        <!-- implementing the navigation bar -->
+        <ul class="active">
+            <li ><a href="#home"> Home </a></li>
+            <li><a href="#services">Interests</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">My Work</a></li>
+        </ul>
         
+
         <!-- Introduction -->
         <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
-                Hi, I am <strong> Ashwin </strong>
+                Hi, I am <strong> <b> Ashwin </b> </strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro"> Full Stack Engineering intern </p>
-            <img src="brunofacepic.png" alt="a picture of Jane Smith smiling">
-        </section>
-        
-        
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Design + Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>E-Commerce</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>WordPress</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            
-            <a href="#work" class="btn">My Work</a>
-        </section>
-        
-        
-        <!-- About me -->
-        <section class="about-me" id="about">
-           <h2 class="section__title section__title--about" >Who I am</h2>
-           <p class="section__subtitle section__subtitle--about"> Designer and Developer based out of NYC </p>
-           
-           <div class="about-me__body">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-           </div>
-           
-           <img src="brunofacepic.png" alt="Jane leaning against a bus" class="about-me__img">
-        </section>
-        
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title ">My work</h2>
-            <p class="section__subtitle section__subtitle--work"> A selection of my range of works </p>
-            
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <a href="#" class="portfolio__item">
-                    <img src="brunofacepic.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 02 -->
-                <a href="#" class="portfolio__item">
-                    <img src="brunofacepic.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 03 -->
-                <a href="#" class="portfolio__item">
-                    <img src="brunofacepic.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 04 -->
-                <a href="#" class="portfolio__item">
-                    <img src="brunofacepic.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 05 -->
-                <a href="#" class="portfolio__item">
-                    <img src="brunofacepic.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 06 -->
-                <a href="#" class="portfolio__item">
-                    <img src="brunofacepic.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 07 -->
-                <a href="#" class="portfolio__item">
-                    <img src="brunofacepic.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 08 -->
-                <a href="#" class="portfolio__item">
-                    <img src="brunofacepic.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 09 -->
-                <a href="#" class="portfolio__item">
-                    <img src="brunofacepic.png" alt="" class="portfolio__img">
-                </a>
+
+            <div class="box">
+                <img src="realimages/ashwinpic.PNG" alt="picture of ashwin">
+                <div class="text">
+                    <p class="section__subtitle section__subtitle--intro" style="color: black"> Full Stack Engineering Intern </p>
+                </div>
             </div>
+
         </section>
-        
-        
-        <!-- Footer -->
-        <footer class="footer">
+
+
+
+
+    </header>
+
+<!--  Interests and Project Experiences section -->
+<hr class="hr__colors" ><br/>
+        <div>
+            <section class="my-services" id="services" style="background-image: url(realimages/services-bg.jpg);" >
+                <center><h2 class= "section__title section__title--services"><b>Project Interests & Experience</b></h2></html></center>
+                    <div class="services">
+                        <div class="service">
+                            <h3> Front & Backend Development </h3> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div class="service">
+                            <h3> Game Development </h3> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>   
+                        <div class="service">
+                            <h3> Machine Learning </h3> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+
+                    <!-- <a href="#work" class="btn">My Work</a> * add if button becomes necessary -->
+                    
+        <!-- About me -->
+        <section class="about-me" id="about" style="background-color: black;">
+            <h2 class="section__title section__title--about"  > About Me </h2>
+            <p class="section__subtitle section__subtitle--about"> CS student at the University of Michigan </p>
+            
+            <div class="about-me__body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            
+            <img src="realimages/portfolio-08.jpg" alt="2nd Ashwin picture" class="about-me__img">
+         </section>
+
+            </section>
+            <section class="this-work">
+                <section class="my-work" id="work">
+                    <h2 class="section__title ">My work</h2>
+                    <p class="section__subtitle section__subtitle--work"> A selection of my range of works </p>
+                    
+                    <div class="portfolio">
+                        <div class="smallportfolioa">
+
+                            <!-- Portfolio item 01 TESTING TEXT HOVER ON THIS -->
+                            <a href="https://github.com/ashw11n/Python-Finance-Project" class="portfolio__item">
+                                <img src="realimages/portfolio-09.jpg" alt="Python SNP500 Price Predictor" class="portfolio__img" >
+                                <p class="img__description1"> fill in image description #1 </p> 
+                            </a>
+                        </div>
+                        
+                        <!-- Portfolio item 02 -->
+                        <div class="smallportfoliob">
+                            <a href="https://github.com/ashw11n/Facial-Recognition-project" class="portfolio__item">
+                                <img src="realimages/portfolio-06.jpg" alt="Facial Recognition & Detection" class="portfolio__img">
+                                <p class="img__description2"> fill in image description #2 </p> 
+                            </a>
+                        </div>
+                        
+                        <!-- Portfolio item 03 -->
+                        <div class="smallportfolioc">
+                            <a href="https://github.com/ashw11n/personal-Website" class="portfolio__item">
+                                <img src="realimages/portfolio-10.jpg" alt="Personal Website [FrontEnd]" class="portfolio__img">
+                                <p class="img__description3"> fill in image description #3 </p> 
+                            </a>
+                        </div>
+                        
+                        <!-- Portfolio item 04 -->
+                        <div class="smallportfoliod">
+                            <a href="https://github.com/ashw11n/password-GUI" class="portfolio__item">
+                                <img src="realimages/portfolio-01.jpg" alt="Beginner: Random Password Generator" class="portfolio__img">
+                                <p class="img__description4"> fill in image description #4 </p> 
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+        </div>
+    <footer class="footer">
             <!-- replace with your own email address -->
-            <a href="mailto:hariharan.ashwin44@gmail.com" class="footer__link">hariharan.ashwin44@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            </ul>
-        </footer>
+        <a href="mailto:hariharan.ashwin44@gmail.com" class="footer__link"> hariharan.ashwin44@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+    </footer>
 
 
-
-        <script src="index.js"></script>
-
-
-
-
-
-
-
-
-        
-    </body>
 </html>
